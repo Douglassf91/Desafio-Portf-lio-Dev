@@ -79,7 +79,3 @@ main {
     height: 32px;
   }
 }
-
-#tag-github {
-  color: var(--color-red);
-}
