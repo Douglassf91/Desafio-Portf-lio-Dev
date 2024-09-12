@@ -71,3 +71,54 @@
         padding-bottom: 20px;
         max-width: 48px;
       }
+
+      #contact {
+        padding-top: 128px;
+        background-image: url(../assets/images/Background_Contacts.png);
+        height: 750px;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      #buttons {
+        max-width: 400px;
+        margin-inline: auto;
+        padding-inline: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding-block: 48px 200px;
+      }
+      
+      .button {
+        padding: 20px;
+        background-color: var(--color-gray-300);
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1.5px solid var(--color-gray-300);
+      }
+      .linkedin {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .instagram {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .github {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .email {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      a:hover {
+        border: 1.5px solid var(--color-blue);
+      }
+     
